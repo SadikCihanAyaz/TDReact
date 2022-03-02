@@ -9,9 +9,9 @@ const [count, setCount] = useState(0);
     }
     return(
         <>
-            <h1 data-testid="title">{props.title}</h1>
-            <p data-testid="counter">Counter {count}</p>
-            <button type="button" onClick={handleClick} data-testid="button">BUTTON</button>
+            <h1 data-testid="title2">{props.title}</h1>
+            <p data-testid="counter">{count}</p>
+            <button id="cihan2" type="button4" onClick={handleClick} data-testid="button5">BUTTON</button>
         </>
 
     );
