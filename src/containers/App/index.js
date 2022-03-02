@@ -1,12 +1,13 @@
 import './App.css';
-
+import Content from  '../../components/Content';
 function App() {
   return (
-    <div class="container mx-auto bg-indigo-500">
-<form>
-    <h1>Everything is work properly</h1>
-</form>
-</div>
+    <div>
+      <form>
+        <h1>Everything learn react is work properly</h1>
+        <Content title={'TITLE'}/>
+    </form>
+  </div>
   );
 }
 
