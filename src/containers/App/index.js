@@ -1,11 +1,12 @@
 import './App.css';
-import Content from  '../../components/Content';
+import Body from  '../../components/Body';
 function App() {
   return (
     <div>
       <form>
+        
         <h1>Everything learn react is work properly</h1>
-        <Content title={'TITLE'}/>
+        <Body title={'TITLE'}/>
     </form>
   </div>
   );
