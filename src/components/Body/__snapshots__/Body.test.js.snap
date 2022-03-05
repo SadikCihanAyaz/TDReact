@@ -12,6 +12,9 @@ exports[`This suit is to test the Body component Snapshot of Body 1`] = `
   >
     0
   </p>
+  <h1>
+    TEST
+  </h1>
   <button
     data-testid="button5"
     id="cihan2"

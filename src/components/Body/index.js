@@ -11,6 +11,7 @@ const [count, setCount] = useState(0);
         <>
             <h1 data-testid="title2">{props.title}</h1>
             <p data-testid="counter">{count}</p>
+            <h1>TEST</h1>
             <button id="cihan2" type="button4" onClick={handleClick} data-testid="button5">BUTTON</button>
         </>
 
